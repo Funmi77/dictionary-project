@@ -1,0 +1,25 @@
+.Dictionary h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  margin: 20px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px soild #ddd;
+  color: cadetblue;
+}
+
+.Dictionary hint {
+  font-size: 11px;
+  margin-top: 5px;
+}

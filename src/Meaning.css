@@ -1,0 +1,29 @@
+.Meaning {
+  background: orange;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.Meaning:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.Meaning h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4f46e5;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.Meaning p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}

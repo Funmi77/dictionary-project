@@ -1,0 +1,29 @@
+.Phonetics {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.Phonetics .speaker {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Phonetics .speaker:hover {
+  background: #574bff;
+}
+
+.Phonetics .text {
+  font-size: 18px;
+  color: #333;
+}
+
+.Phonetics .no-audio {
+  color: gray;
+  font-size: 14px;
+}
