@@ -1,0 +1,24 @@
+.Photos {
+  margin-top: 20px;
+}
+
+.Photos img {
+  width: 100%;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.Photos img:hover {
+  transform: scale(1.03);
+}
+
+.Photos .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Photos .col-4 {
+  padding: 10px;
+}
